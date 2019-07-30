@@ -17,7 +17,7 @@
             // Activate isotope in container
 			$(".gallery_f_inner").imagesLoaded( function() {
                 $(".gallery_f_inner").isotope({
-                    layoutMode: 'fitRows',
+                    layoutMode: 'packery',
                     animationOptions: {
                         duration: 750,
                         easing: 'linear'
