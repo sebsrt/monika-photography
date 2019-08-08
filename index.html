@@ -38,17 +38,20 @@
                 <ul class="nav navbar-nav menu_nav ml-auto">
                     <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html#gallery">Galeria</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Rodzaje sesji</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">O mnie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#o-mnie">O mnie</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html#home-price-tables">Cennik</a></li>
-                    <!--                    <li class="nav-item submenu dropdown">-->
-                    <!--                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"-->
-                    <!--                           aria-haspopup="true" aria-expanded="false">Blog</a>-->
-                    <!--                        <ul class="dropdown-menu">-->
-                    <!--                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>-->
-                    <!--                            <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>-->
-                    <!--                        </ul>-->
-                    <!--                    </li>-->
+                    <li class="nav-item submenu dropdown">
+                        <a href="index.html#sesje" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="true">Rodzaje sesji</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a class="nav-link" href="sesje/sesje-noworodkowe.html">Sesje Noworodkowe</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="sesje/sesje-kobiece.html">Sesje Kobiece</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="sesje/sesje-ciazowe.html">Sesje Ciążowe</a>
+                            </li>
+                        </ul>
+                    </li>
 
                     <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
                 </ul>
@@ -88,6 +91,7 @@
                 <li data-filter=".noworodkowe"><a href="#">Noworodkowe</a></li>
                 <li data-filter=".kobiece"><a href="#">Kobiece</a></li>
                 <li data-filter=".biznesowe"><a href="#">Biznesowe</a></li>
+                <li data-filter=".inne"><a href="#">Inne</a></li>
             </ul>
         </div>
     </div>
@@ -100,15 +104,6 @@
                         <a href="#"><h4></h4></a>
                         <a class="light" href="img/gallery/ciazowe/ciazowe-1-big.jpg"><i
                                 class="fa fa-expand"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 kobiece">
-                <div class="h_gallery_item">
-                    <img src="img/gallery/gallery-2.jpg" alt="">
-                    <div class="hover">
-                        <a href="#"><h4></h4></a>
-                        <a class="light" href="img/gallery/gallery-2.jpg"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
@@ -138,15 +133,6 @@
                         <!--                        <a href="#"><h4>Spreading Peace to world</h4></a>-->
                         <a class="light" href="img/gallery/noworodkowe/big/DSC00639.jpg"><i
                                 class="fa fa-expand"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 kobiece">
-                <div class="h_gallery_item">
-                    <img src="img/gallery/gallery-5.jpg" alt="">
-                    <div class="hover">
-                        <!--                        <a href="#"><h4>Spreading Peace to world</h4></a>-->
-                        <a class="light" href="img/gallery/gallery-5.jpg"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
@@ -253,30 +239,61 @@
     </div>
 </section>
 <!--================End Home Gallery Area =================-->
+<!--================Testimonials Area =================-->
+<section id="o-mnie" class="testimonials_area p_120">
+    <div class="container">
+        <div class="row testimonials_inner">
+            <div class="col-lg-8">
+                <div class="c_feedback_text">
+                    <h4>O mnie</h4>
+                    <p>Z wykształcenia księgowa, z pasją do podróży i fotografii, a od zawsze pragnąca
+                        pracować z dziećmi.</p>
+                    <p>Od wielu lat fotografuję, a w kwietniu 2018 roku ukończyłam kurs fotografii
+                        noworodkowej u Barbary Pietrzak, wtedy dowiedziałam się jak pracować z noworodkami,
+                        jak powinnam je układać do sesji oraz fotografować. Rozwijam się również w
+                        fotografii ciążowej, kobiecej i rodzinnej. Zajrzyj do mojej galerii i umów się na
+                        sesję.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="h_gallery_item">
+                    <img src="img/Andaluzja%20(118).jpg" alt="">
+                    <div class="hover">
+                        <a href="#"><h4></h4></a>
+                        <a class="light" href="img/Andaluzja%20(118).jpg"><i class="fa fa-expand"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Testimonials Area =================-->
 
 <!--================Testimonials Area  but here changed to display services =================-->
-<section class="testimonials_area p_120">
+<section id="sesje" class="testimonials_area p_120">
     <div class="container">
         <div class="row service_inner">
             <div class="col-lg-4 col-md-6">
                 <div class="service_item">
                     <i class="lnr lnr-camera"></i>
-                    <a href="#"><h4>Sesje noworodkowe</h4></a>
+                    <a href="#"><h4>Sesje ciążowe</h4></a>
                     <p>Uwiecznij ten niezwykły okres w życiu. Czas oczekiwania na dziecko jest magicznym czasem w życiu
                         kobety.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service_item">
-                    <i class="lnr lnr-camera"></i>
-                    <a href="#"><h4>Sesje noworodkowe</h4></a>
-                    <p>Szczególny rodzaj fotografii. Maleństwa najlepiej fotografuje się do 14 dni życia.</p>
+            <a href="sesje/sesje-noworodkowe.html">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service_item">
+                        <i class="lnr lnr-camera"></i>
+                        <a href="sesje/sesje-noworodkowe.html"><h4>Sesje noworodkowe</h4>
+                            <p>Szczególny rodzaj fotografii. Maleństwa najlepiej fotografuje się do 14 dni życia.</p>
+                    </div>
                 </div>
-            </div>
+            </a>
             <div class="col-lg-4 col-md-6">
                 <div class="service_item">
                     <i class="lnr lnr-camera"></i>
-                    <a href="#"><h4>Sesje kobiece</h4></a>
+                    <a href="sesje-kobiece.html"><h4>Sesje kobiece</h4></a>
                     <p>Spraw sobie odrobinę przyjemność, a zostanie Ci wspaniała pamiątka na całe życie.</p>
                 </div>
             </div>
@@ -291,7 +308,8 @@
                 <div class="service_item">
                     <i class="lnr lnr-camera"></i>
                     <a href="#"><h4>Inne sesje</h4></a>
-                    <p>narzeczeńskie, rodzinne, urodzinowe, wieczory panieńskie - zadzwoń, a napewno ustalimy coś ciekawego.</p>
+                    <p>narzeczeńskie, rodzinne, urodzinowe, wieczory panieńskie - zadzwoń, a na pewno ustalimy coś
+                        ciekawego.</p>
                 </div>
             </div>
         </div>
@@ -322,7 +340,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service_item">
                     <a href="#"><h4>Szybka obróbka zdjęć</h4></a>
-                    <p>Materiał z sesji otrzymujesz już po tygodniu</p>
+                    <p>Materiał z sesji otrzymujesz już po 2 tygodniach, a kupując sesję premium po tygodniu</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
