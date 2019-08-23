@@ -10,7 +10,7 @@
 		width: 100%;
 		min-height: 900px;
 		.overlay{
-			background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
+			background: url(../img/banner/home-banner-1.jpg) no-repeat scroll center center;
 			position: absolute;
 			left: 0;
 			right: 0;
@@ -38,8 +38,8 @@
 				margin-bottom: -110px;
 			}
 		}
-	}	
-	
+	}
+
 }
 .blog_banner{
 	min-height: 780px;
@@ -47,7 +47,7 @@
 	z-index: 1;
 	.banner_inner{
 		background: #04091e;
-		position: relative; 
+		position: relative;
 		overflow: hidden;
 		width: 100%;
 		min-height: 780px;
@@ -124,7 +124,7 @@
 						margin-right: 0px;
 						&:before{
 							display: none;
-						}	
+						}
 					}
 					&:hover{
 						color: $baseColor;
