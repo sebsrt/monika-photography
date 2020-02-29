@@ -677,6 +677,7 @@ button:focus {
 .c_feedback_text {
   max-width: 430px;
   margin-top: 44px;
+  font-size: 1em;
 }
 
 .c_feedback_text h4 {
@@ -688,7 +689,7 @@ button:focus {
 }
 
 .c_feedback_text p {
-  font-size: 14px;
+  font-size: 1.2em;
   line-height: 24px;
   color: #222222;
   font-family: "Poppins", sans-serif;
