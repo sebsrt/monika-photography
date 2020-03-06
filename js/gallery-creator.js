@@ -1,6 +1,6 @@
 const getGalleryItems = function () {
 
-  let galleryItems = '';
+  let galleryItems = '<div class="gallery_f_inner row imageGallery1">';
 
   for (let i = 0; i < gallery.length; i++) {
 
@@ -18,6 +18,7 @@ const getGalleryItems = function () {
   </div>
 </div>`);
   }
+  galleryItems = galleryItems.concat('</div>');
   console.log(galleryItems);
 };
 
@@ -34,9 +35,18 @@ const gallery = [
   {category: 'kobiece', fileName: 'DSC01188.jpg', additionalCategories: ['all']},
   {category: 'kobiece', fileName: 'DSC01149.jpg', additionalCategories: ['all']},
   {category: 'kobiece', fileName: 'DSC01386.jpg', additionalCategories: ['all']},
+  {category: 'biznesowe', fileName: 'DSC08673.jpg', additionalCategories: ['all']},
   {category: 'biznesowe', fileName: 'DSC08459.jpg', additionalCategories: ['all']},
   {category: 'biznesowe', fileName: 'DSC03533.jpg', additionalCategories: ['all']},
+  {category: 'biznesowe', fileName: 'DSC08651.jpg', additionalCategories: ['all']},
+  {category: 'biznesowe', fileName: 'DSC09029.jpg', additionalCategories: ['all']},
   {category: 'biznesowe', fileName: 'DSC07954.jpg', additionalCategories: ['all']},
+  {category: 'biznesowe', fileName: 'DSC08570.jpg'},
+  {category: 'biznesowe', fileName: 'DSC08594.jpg'},
+  {category: 'biznesowe', fileName: 'DSC08601.jpg'},
+  {category: 'biznesowe', fileName: 'DSC09003.jpg'},
+  {category: 'biznesowe', fileName: 'DSC09012.jpg'},
+  {category: 'biznesowe', fileName: 'DSC08572.jpg'},
   {category: 'rodzinne', fileName: 'DSC03073.jpg', additionalCategories: ['all']},
   {category: 'rodzinne', fileName: 'DSC02953.jpg', additionalCategories: ['all']},
   {category: 'rodzinne', fileName: 'DSC02983.jpg', additionalCategories: ['all']},
